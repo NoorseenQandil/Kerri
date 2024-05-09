@@ -19,9 +19,9 @@ Simple template with HTML and CSS only.
   - Consists of 2 parts: The first part includes Kerri logo image and navbar links. The second one includes main caption that consists of Title, caption and two buttons.
   - Use Float property and set left to its value to put the logo image in navbar on the left side.
     ```
-      #home .navbar img{
-       float: left;
-      }
+      #home .navbar .nav-logo{
+         float: left;
+       }
     ```
   - Use Float property and set right to value to put the navbar links on the right side.
   - Use list-style property and set none to its value to remove the list style put by default.
