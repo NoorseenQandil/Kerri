@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.clear-fix{
+    clear: both;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+/**************** HOME ******************/
+#home{
+    background-image: url('../images/header.png');
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+#home .navbar{
+    padding: 20px 30px;
+    background-color: rgba(20, 20, 20, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+#home .navbar .nav-logo{
+    float: left;
+}
+#home .navbar .nav-logo img{
+    width: 60px;
+}
+#home .navbar .nav-menu{
+    float: right;
+}
+#home .navbar .nav-menu li{
+    display: inline-block;
+}
+#home .navbar .nav-menu li a{
+    padding-inline: 20px;
+    color: #fff;
+}
+#home .caption{
+    text-align: center;
+    color: #fff;
+    padding-top: 20%;
+    /* padding-top: 50px; */
+}
+#home .caption h1{
+    font-size: 80px;
+    padding: 20px 0;
+}
+#home .caption p{
+    padding-bottom: 20px;
+}
+#home .caption .btn1 , #home .caption .btn2{
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+}
+#home .caption .btn1{
+    background-color: #C1AB84;
+}
+#home .caption .btn2{
+    background-color: #fff;
+}
+/**************** About ********************/
+#about{
+    margin: 5%;
+}
+#about .about-img{
+    float: left;
+    width: 50%;
+}
+#about .about-img img{
+    width: 100%;
+}
+#about .about-info{
+    float: right;
+    width: 50%;
+    padding: 5%;
+}
+#about .about-info h2{
+    font-size: 25px;
+    margin: 10px;
+}
+#about .about-info h3{
+    margin: 10px;
+}
+#about .about-info p{
+    line-height: 30px;
+    margin: 10px;
+}
+#about .about-info button{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+}
+/**************** Overlay ******************/
+#overlay{
+    height: 400px;
+    background-image: url('../images/blog-3.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+/**************** Blog ********************/
+#blog{
+    text-align: center;
+    padding: 20px 60px;
+}
+#blog h2{
+    padding-block: 30px;
+}
+#blog .blog-item{
+    float: left;
+    width: calc(100% / 3);
+    text-align: center;
+    padding: 20px;
+}
+#blog .blog-item img{
+    width: 100%;
+}
+#blog .blog-item h3{
+    padding: 10px;
+}
+#blog .blog-item p{
+    line-height: 20px;
+}
